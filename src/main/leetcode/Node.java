@@ -6,20 +6,9 @@ import java.util.LinkedList;
  * @Description:
  */
 public class Node {
-    public class TreeNode {
-        TreeNode left ;
-        TreeNode right;
+        Node next;
         int val;
-        TreeNode(int x) {
+        Node (int x){
             this.val = x;
         }
-    }
-
-    public class LinkList{
-        LinkedList next;
-        int val;
-        LinkList(int x){
-            this.val = x;
-        }
-    }
 }
