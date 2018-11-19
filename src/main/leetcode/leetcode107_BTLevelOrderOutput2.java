@@ -47,7 +47,7 @@ public class leetcode107_BTLevelOrderOutput2 {
                     queue.offer(queue.peek().right);
                 levelList.add(queue.poll().val);
             }
-            list.add(0,levelList);
+            list.add(0,levelList);  //关键一步：将list放置在整体list之前
         }
         return list;
     }
