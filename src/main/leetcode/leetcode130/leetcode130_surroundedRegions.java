@@ -1,3 +1,4 @@
+package leetcode130;
 /**
  * @Auther: Think
  * @Date: 2018/11/28 16:29
