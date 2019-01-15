@@ -20,7 +20,7 @@ public class leetcode115_distinctSub {
         int[][] dp = new int[t.length()+1][s.length()+1];
         dp[0][0] = 1;
         for (int i = 1;i<=t.length();i++){
-            dp[i][0] = 0
+            dp[i][0] = 0;
         }
     }
 
